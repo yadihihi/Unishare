@@ -1,14 +1,11 @@
-# Neue Version: Kontofreigabe
+# GitHub – nur diese drei Schritte
 
-1. ZIP entpacken und Website-Dateien auf GitHub ersetzen. index.html, app.js, style.css, config.js und Icons liegen oben. QUELLCODE enthält die Originaldateien und muss nicht hochgeladen werden.
-2. Wenn der gemeinsame Speicher schon eingerichtet ist: supabase-update-freigaben.sql einmal in Supabase → SQL Editor ausführen.
-3. Falls noch nichts eingerichtet wurde: stattdessen das vollständige supabase-setup.sql ausführen. Es enthält die Freigabe-Erweiterung bereits.
+1. Diese ZIP entpacken und den gesamten Inhalt in dein GitHub-Repository hochladen. index.html muss direkt oben liegen.
+2. GitHub → Settings → Pages → Deploy from a branch → main → / (root) → Save.
+3. Für den gemeinsamen Speicher supabase-setup.sql einmal in deinem Supabase SQL Editor ausführen. Deinen GitHub-Website-Link unter Authentication → URL Configuration als Site URL und Redirect URL eintragen. E-Mail-Bestätigung aktiviert lassen.
 
-Anmeldung: eigene E-Mail-Adresse und eigenes Passwort. Kein ChatGPT-Konto.
-Yades Eigentümerinnen-Konto: yade.akkus2293@gmail.com.
-Nach Registrierung erscheint eine Anfrage bei Yade. Die Person bestätigt ihre E-Mail und wartet auf Yades Freigabe.
-Yade kann unter Profil → Gemeinsamer Zugang freigeben oder ablehnen. Ein Hinweis zeigt neue Kontoanfragen auch auf der Home-Seite.
-Nach Freigabe kann sich die Person immer wieder anmelden. Bereits vorhandene Konten und eure gespeicherten Inhalte bleiben erhalten.
+Deine Supabase-Verbindung ist bereits in config.js eingetragen.
 
-Die Weiterleitungsadresse in Supabase muss auf euren GitHub-Pages-Link zeigen und die E-Mail-Bestätigung bleibt aktiviert.
-Ausführliche Anleitung: ANLEITUNG.md.
+Du registrierst dich mit yade.akkus2293@gmail.com und bestätigst die E-Mail. Danach kannst du unter „Gemeinsamer Bereich“ die E-Mail deiner Freundin freischalten. Sie registriert sich separat. Das Logbuch ist nur für dein Konto.
+
+Das Hamster-Icon ist eingebaut. Die ausführliche Anleitung findest du in ANLEITUNG.md.

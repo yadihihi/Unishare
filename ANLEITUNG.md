@@ -26,21 +26,17 @@ Deine vorhandene Supabase-Adresse und der veröffentlichbare Schlüssel sind ber
 
 **Eigentümerinnen-Adresse:** Im Einrichtungsskript ist `yade.akkus2293@gmail.com` eingetragen. Melde dich mit dieser Adresse an. Falls du eine andere Adresse verwenden möchtest, ändere die Zeile mit `uz_workspace` vor der ersten Einrichtung. Danach ist die Eigentümerinnen-Rolle an dein angemeldetes Konto gebunden, nicht an deinen frei wählbaren Anzeigenamen.
 
-## 3. Konten mit E-Mail und Passwort, Freigabe durch Yade
+## 3. Eure beiden Konten
 
-1. Du registrierst dich mit `yade.akkus2293@gmail.com` und bestätigst deine E-Mail-Adresse. Dieses Eigentümerinnen-Konto verwaltet den Zugang. Falls es im Supabase-Projekt schon existiert, melde dich mit dessen Passwort an.
-2. Deine Freundin öffnet denselben Website-Link und erstellt ihr eigenes Konto mit Name, E-Mail-Adresse und Passwort.
-3. Sobald sie ein neues Konto registriert, erscheint bei dir eine Kontoanfrage in der Website. Sie bestätigt zunächst ihre E-Mail-Adresse.
-4. Du öffnest den Hinweis **Neue Kontoanfrage → Prüfen**, oder **Profil → Gemeinsamer Zugang**. Nur du kannst **Freigeben** oder **Ablehnen** wählen. Vor der E-Mail-Bestätigung ist Freigeben gesperrt.
-5. Nach deiner Freigabe kann sie sich immer wieder mit ihrer E-Mail-Adresse und ihrem Passwort anmelden. Auf demselben Gerät bleibt sie angemeldet, bis sie sich abmeldet oder die Browserdaten löscht.
+1. Du öffnest die Website und erstellst unter **Registrieren** dein eigenes Konto. Falls für diese E-Mail-Adresse in diesem Supabase-Projekt schon ein Konto existiert, melde dich mit dessen Passwort an.
+2. Bestätige die E-Mail-Adresse über die E-Mail von Supabase und melde dich an.
+3. Öffne links **Gemeinsamer Bereich → Zugang verwalten**.
+4. Trage die E-Mail-Adresse deiner Freundin ein und klicke auf **Zugang freischalten**. Dies verschickt keine Nachricht; gib ihr selbst den Website-Link.
+5. Deine Freundin registriert sich mit genau dieser E-Mail-Adresse, bestätigt sie und meldet sich an.
 
-Solange deine Freigabe fehlt, sieht die Person nur eine Warteseite. Kalender, Chat, Mitschriften und Profile sind noch gesperrt. Abgelehnte Konten erhalten ebenfalls keinen Zugriff. Die Freigabe wird im Online-Speicher dauerhaft gespeichert. Kontoanfragen werden bei geöffneter, sichtbarer Website alle acht Sekunden aktualisiert; es wird keine Push-Nachricht oder Einladung verschickt. Es wird kein ChatGPT-Konto benötigt.
-
-**Update einer bereits eingerichteten Version:** Führe `supabase-update-freigaben.sql` einmal im SQL Editor aus und ersetze die Website-Dateien auf GitHub. Bereits freigegebene Konten und alle Inhalte bleiben erhalten. Vorher eingetragene E-Mail-Einladungen schalten neue Konten nicht mehr automatisch frei.
+Jede Person hat ein eigenes Passwort. Das frühere gemeinsame Passwort `MAVIE` wird für diese neue Version nicht verwendet. Der Planer erlaubt zwei persönliche Konten. Außenstehende können die Anmeldeseite öffnen, erhalten aber keinen Zugriff auf eure Inhalte.
 
 ## 4. So benutzt ihr den Planer
-
-Die Seitenauswahl steht fest am unteren Bildschirmrand. Die Sprechblase ist von jeder Seite erreichbar. Ein kleiner Punkt markiert neue ungelesene Nachrichten der anderen Person. Sobald ihr den Chat öffnet und die Nachrichten geladen wurden, verschwindet der Punkt. Die Prüfung findet alle vier Sekunden bei geöffneter, sichtbarer Website statt; dies ist keine Push-Benachrichtigung bei geschlossener App. Profil und Einstellungen erreicht ihr über das Personen-Icon unten.
 
 - **Home:** kommende Ankündigungen, Tests und Abgaben. Neue Einträge über **Eintrag hinzufügen** erstellen.
 - **Kalender:** alle Wochen des gewählten Monats. Mit den Pfeilen zwischen Monaten wechseln und einen Tag öffnen.
