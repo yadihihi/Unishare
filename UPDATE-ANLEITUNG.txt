@@ -1,0 +1,4 @@
+1. Supabase: Den Inhalt von unishare-Eintragsfarben.sql einmal im SQL Editor einfügen und Run drücken.
+2. GitHub: app.js, style.css, index.html und manifest.webmanifest ersetzen.
+3. Die Seite neu laden. config.js bleibt unverändert.
+Die SQL-Datei ist für Supabase, nicht für GitHub. Vorhandene Daten bleiben erhalten.
